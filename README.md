@@ -14,6 +14,9 @@ Step 8: In the browser network tab observer the time taken for the request to vi
 # Commands description
 `npm run start` - To spin server on the given port 
 `redis-server` - To start redis server 
+
+# Redis cli commands 
 `redis-cli` - To open redis command line interface 
 `set key value` - To set a key value pair using redis cli 
 `get key` - To get the value for the key, stored inside redis cache 
+`flushall` - Removes everything in redis cache 
