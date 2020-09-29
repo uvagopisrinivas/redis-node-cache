@@ -1,0 +1,28 @@
+{
+  "name": "redis-node-cache",
+  "version": "1.0.0",
+  "description": "Weekly Project to give a overview on redis cache and how using cache could speed up your requests to server",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uvagopisrinivas/redis-node-cache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uvagopisrinivas/redis-node-cache/issues"
+  },
+  "homepage": "https://github.com/uvagopisrinivas/redis-node-cache#readme"
+}
